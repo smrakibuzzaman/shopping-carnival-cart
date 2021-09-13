@@ -30,17 +30,21 @@
   </header>
 
   <main class="main">
+    <section class="container">
+      <!-- search start  -->
 
-    <!-- search start  -->
-    <div class="search-field">
       <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn search-button" data-toggle="button" aria-pressed="false" autocomplete="off"
-          id="search-btn" onclick="loadProducts()">
+        <!-- <input type="text" id="input-field" class="form-control search-field" placeholder="" aria-label=""
+          aria-describedby="button-addon2">
+        <button class="btn search-button" type="button" id="button-addon2" onclick="loadProducts()">Search</button> -->
+
+        <input id="input-field" class="search-field" type="text">
+        <button type="button" class="btn search-button" id="search-btn" onclick="loadProducts()">
           Search
         </button>
       </div>
-    </div>
+    </section>
+
     <!-- search end  -->
 
     <div class="row">
